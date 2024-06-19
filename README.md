@@ -1,4 +1,4 @@
-# npq hugo theme
+# Midnight Hackings theme - a fork of [npq-hugo](https://github.com/saadjsct/npqhugo)
 
 ![screenshot](https://raw.githubusercontent.com/saadnpq/npq-hugo/master/images/screenshot.png "screenshot")
 
@@ -25,7 +25,7 @@ baseURL = "https://www.example.com"
 languageCode = "en-us"
 title = "title"
 copyright = "Copyright © 2008–2019, Steve Francia and the Hugo Authors; all rights reserved."
-theme = "npq-hugo"
+theme = "midnight-hackings-theme"
 pygmentsUseClasses=true
 
 [params]
