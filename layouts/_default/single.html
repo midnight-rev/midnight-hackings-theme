@@ -1,9 +1,16 @@
 {{ define "main" }}
+<code>
+    <center>
+    <p style="font-weight: bolder;color: red;"> Midnight Hackings apoia o fim da escala 6x1. </p>
+    <p style="font-weight: bolder;color: red;">Todos nós trabalhadores devemos ter direito à vida além do trabalho! Trabalhadores unidos mudam o mundo.</p>
+    </center>
+</code>
     {{with .Title}}
     <h1 id="title">{{.}}</h1>
     {{else}}
     <div class="spacer"></div>
     {{end}}
+    
     {{ with .Params.githubrepo}}
        github repository : <a href="{{.}}">{{.}}</a>
     {{end}}  
